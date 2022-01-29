@@ -1,0 +1,57 @@
+.wideo{
+    /* position: relative; */
+    background-image:url(../img/IMAGE\ \(21\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    padding-top: 50px;
+    /* margin-bottom: 153px; */
+    margin: 0 auto;
+    
+}
+
+.wideo__link-main,.wideo__link,.wideo__link-second,.wideo__text{
+    
+    text-align: center;
+    color:#ffff;
+}
+/* .wideo__link-main{
+    /* margin-bottom: 300px; */
+.wideo__link{
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 16px;
+    margin-bottom: 18px;
+}
+.wideo__link-second{
+    
+    font-size: 36px;
+    line-height: 44px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-bottom: 19px;
+}
+.wideo__text{
+    max-width: 718px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+/* .wideo:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.22);
+    height: auto;
+    z-index: 2;
+} */
+
+.wideo__inner {
+    position: relative;
+    z-index: 3;
+    /* color: #fff; */
+    text-align: center;
+    padding: 50px;  
+}

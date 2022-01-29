@@ -1,0 +1,35 @@
+.main{
+    color:#ffff;
+    box-shadow: 1px 1px 15px 0px #0000001F;
+
+}
+.main__menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px;
+    align-items: center;
+    max-width: 1040px;
+}
+.main__link{
+    /* padding-left: 30px; */
+    color:#333333;
+    font-size: 24px;
+}
+.main__items-link{
+    
+    color:#111111;
+    
+}
+.main__link-icons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main__links{
+    padding-right: 26px;
+    font-size: 16px;
+}
+.main__icon{
+    padding-left: 13.5px;
+    color:black;
+}

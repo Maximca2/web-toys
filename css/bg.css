@@ -1,0 +1,124 @@
+.bg{
+    background-image: url(../img/IMAGE\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 296px;
+    padding-bottom: 66px;
+    margin-bottom: 153px;
+    
+    
+}
+.bg__box{
+    
+    padding-top: 55px;
+    background-color: #ffff;
+    max-width: 570px;
+    min-height: 308px;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 318px;
+}
+.bg__link {
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    color: #A5C926!important;
+    font-weight: 400;
+    margin-bottom: 17px;
+
+
+    
+    /* animation-name: link;
+    animation-duration: 2s;
+    /* animation-timing-function: linear; */
+    /*animation-iteration-count: infinite; 
+    /* animation-iteration-count: 1;  */
+    /*animation-direction:inherit;
+    /*animation-fill-mode: forwards; */
+    animation:link 1s infinite alternate-reverse ease-in-out;
+}
+
+.bg__title{
+    text-align: center;
+    color:#111;
+    margin-bottom: 33px;
+    
+}
+.bg__btn a {
+    display: block;
+    max-width: 153px;
+    max-height: 48px;
+    background-color: #A5C926;
+    font-size: 14px;
+    padding: 13px 28px 33px 28px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius:24px;
+    color:#fff;
+
+    animation-name: btn;
+    animation-duration: 3s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: infinite; 
+    /* animation-iteration-count: 1;  */
+    animation-direction:alternate-reverse;
+    /* animation-fill-mode: forwards; */
+     /* animation:btn 3s linear  1 alternate ,red-cicle 1s linear  1 alternate ; */ 
+}
+@keyframes btn{
+    0%{
+        background-color: #A5C926;
+    }
+    50%{
+        background-color: 50% #bac426;
+        
+    }
+    60%{
+        background-color: #c9f06f;
+    }
+    100%{
+        background-color: #80c920;
+    }
+}
+@keyframes link{
+    0%{
+        bottom: 0px;
+    }
+    /* 50%{
+        bottom:  40px;
+        
+    } */
+    /* 60%{
+        bottom: 50px;
+    } */
+    100%{
+        bottom: 50px;
+    }
+    
+}
+.bg__box:hover.bg__btn{
+    animation-name: btn-hover;
+    animation-duration: 1.5s;
+    /* animation-timing-function: linear; */
+    /* animation-iteration-count: infinite;  */
+    /* animation-iteration-count: 1;  */
+    animation-direction:alternate-reverse;
+    /* animation-fill-mode: forwards; */
+     /* animation:btn 3s linear  1 alternate ,red-cicle 1s linear  1 alternate ; */ 
+}
+/* @keyframes btn-hover{
+    0%{
+        background-color: #A5C926;
+    }
+    50%{
+        background-color: 50% #c2e287;
+        
+    }
+    60%{
+        background-color: #c2e287;
+    }
+    100%{
+        background-color: #bec920;
+    }
+} */

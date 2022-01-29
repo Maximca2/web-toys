@@ -1,0 +1,38 @@
+@import url(../css/header.css);
+@import url(.//main.css);
+@import url(../css/bg.css);
+@import url(../css/intro.css);
+@import url(../css/content.css);
+@import url(../css/wideo.css);
+@import url(../css/info.css);
+@import url(../css/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&family=Open+Sans&family=Work+Sans:wght@100&display=swap');
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    /* font-family:  'Work Sans', sans-serif;  */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* color:rgb(255, 255, 255); */
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 49px;
+    }
+a{  
+    
+    text-decoration: none;
+    color:inherit;
+    /* color:black; */
+}

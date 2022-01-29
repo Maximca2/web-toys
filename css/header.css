@@ -1,0 +1,23 @@
+.header{
+    background-color: #A5C926;
+}
+.header__box{
+    display: flex;
+}
+.header__main{
+    display: flex;
+    justify-content: space-around;
+    padding:8px 0 8px;
+    max-width: 1070px;
+}
+.header__link-icon{
+    color:#fff;
+    padding-left: 14.5px;
+}
+.header__phone a{
+    color:#fff;
+}
+.header__amail a{
+    color:#fff;
+    padding-left: 28px;
+}
